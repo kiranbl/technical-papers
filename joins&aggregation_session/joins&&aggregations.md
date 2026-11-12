@@ -75,7 +75,7 @@ Returns **only rows with matches in both tables**.
 - Vikram is excluded because her department is `NULL`.
 - Use it when you need matching records from both tables.
 
-![Animated INNER JOIN diagram](images/inner-join.gif)
+![Animated INNER JOIN diagram](joins_gif/inner-join.gif)
 
 ```sql
 SELECT e.emp_name, d.dept_name
@@ -95,7 +95,7 @@ Returns **all rows from the left table** and matching rows from the right table.
 - Vikram appears with a `NULL` department.
 - Useful when some employees may not have departments.
 
-![Animated LEFT JOIN diagram](images/left-join.gif)
+![Animated LEFT JOIN diagram](joins_gif/left-join.gif)
 
 ```sql
 SELECT e.emp_name, d.dept_name
@@ -115,7 +115,7 @@ Returns **all rows from the right table** and matching rows from the left table.
 - Finance appears with a `NULL` employee.
 - Swapping the tables and using `LEFT JOIN` gives equivalent rows.
 
-![Animated RIGHT JOIN diagram](images/right-join.gif)
+![Animated RIGHT JOIN diagram](joins_gif/right-join.gif)
 
 ```sql
 SELECT e.emp_name, d.dept_name
@@ -135,7 +135,7 @@ Returns **matching and unmatched rows from both tables**.
 - Both Vikram and Finance appear, with missing values as `NULL`.
 - Useful for finding unmatched records.
 
-![Animated FULL OUTER JOIN diagram](images/full-outer-join.gif)
+![Animated FULL OUTER JOIN diagram](joins_gif/full-outer-join.gif)
 
 ```sql
 SELECT e.emp_name, d.dept_name
