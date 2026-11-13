@@ -2,7 +2,7 @@
 
 ## 1. SQL Joins
 
-A **JOIN** combines data from two tables using a related column or a matching condition. For example, we can combine employee names from one table with department names from another.
+A **JOIN** combines data from two or more tables using a related column or a matching condition. For example, we can combine employee names from one table with department names from another.
 
 ### Sample tables
 
